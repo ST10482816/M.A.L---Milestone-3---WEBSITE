@@ -79,6 +79,7 @@ Screenshots demonstrate responsive design tested on smaller breakpoints (e.g., T
 <img width="1290" height="4320" alt="Contact Us Page - Mobile Media Query" src="https://github.com/user-attachments/assets/ae812067-722b-4fee-a2e0-8dceb8e92c19" />
 
 *(Screenshots uploaded in the `/screenshots/` folder of the project.)*  
+*(Note: The footers that don't stick to the bottom of the page is ONLY due to the "node screenshot" taken on the website interface!)
 
 ## Changelog  
 - **v1.0 (Milestone 1):** Creating the logo, content research, and wireframes created.  
