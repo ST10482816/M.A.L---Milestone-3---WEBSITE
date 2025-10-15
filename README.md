@@ -8,7 +8,7 @@ Empowering the Nation Website - M.A.L
 - **Student Number:** ST10487313, ST10482816, ST10479242
 - **Course:** XHAW5112
 - **Institution:** Varsity College  
-
+- **Github Link:** https://github.com/ST10482816/M.A.L---Milestone-3---WEBSITE.git
 ## Project Overview  
 To open doors to dignified work by delivering affordable, practical training in essential trades—helping every learner build skills, confidence, and income for their family and community.
 
