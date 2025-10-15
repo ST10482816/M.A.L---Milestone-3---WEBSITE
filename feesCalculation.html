@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calculate fees for six-month courses like First Aid and Sewing at Empowering The Nation. Get your quote in South Africa now!">
+<meta name="keywords" content="course fees calculator, six-month courses, First Aid fees, Sewing fees, vocational training, South Africa, Empowering The Nation">
+    <title>Fees Calculations</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <button class="hamburger" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="banner" role="banner">
+            <div class="logo">
+                <img src="assets/logo.png" alt="EmpowerNation Logo" class="logo-icon" />
+                Empowering The Nation
+            </div>
+            <nav class="nav-bar" aria-label="Primary">
+                <a href="index.html"><button class="nav-btn">Home</button></a>
+                <a href="courses.html"><button class="nav-btn">Courses</button></a>
+                <a href="feesCalculation.html"><button class="nav-btn active">Calculate Fees</button></a>
+                <a href="contactUs.html"><button class="nav-btn">Contact Us</button></a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <button onclick="window.location.href='index.html'" class="back-btn" aria-label="Back to Home"></button>
+        <div class="fees-container">
+            <!-- Select Card -->
+            <section id="select-section">
+                <h2>Select Courses</h2>
+                <label class="course-checkbox-item">
+                    <span class="course-checkbox-label">First Aid (6 Months) - R1500</span>
+                    <input type="checkbox" class="checkbox" name="course" value="First Aid">
+                </label>
+                <label class="course-checkbox-item">
+                    <span class="course-checkbox-label">Sewing (6 Months) - R1500</span>
+                        <input type="checkbox" class="checkbox"name="course" value="Sewing">
+                    </label>
+                <label class="course-checkbox-item">
+                    <span class="course-checkbox-label">Landscaping (6 Months) - R1500</span>
+                    <input type="checkbox" class="checkbox" name="course" value="Landscaping">
+                </label>
+                <label class="course-checkbox-item">
+                    <span class="course-checkbox-label">Life Skills (6 Months) - R1500</span>
+                    <input type="checkbox" class="checkbox" name="course" value="Life Skills">
+                </label>
+                <label class="course-checkbox-item">
+                    <span class="course-checkbox-label">Child Minding (6 Weeks) - R750</span>
+                    <input type="checkbox" class="checkbox" name="course" value="Child Minding 6 Weeks">
+                </label>
+                <label class="course-checkbox-item">
+                    <span class="course-checkbox-label">Cooking (6 Weeks) - R750</span>
+                    <input type="checkbox" class="checkbox" name="course" value="Cooking 6 Weeks">
+                </label>
+                <label class="course-checkbox-item">
+                    <span class="course-checkbox-label">Garden Maintenance (6 Weeks) - R750</span>
+                    <input type="checkbox" class="checkbox" name="course" value="Garden Maintenance 6 Weeks">
+                </label>
+            </section>
+
+     
+            <!-- User Details Card -->
+           <section id="user-details-section">
+                <h2>Details</h2>
+                <div>
+                    <label for="user-first-name">First Name:</label>
+                    <input type="text" id="user-first-name" name="user-first-name" placeholder="John">
+                </div>
+                <div>
+                    <label for="user-phone">Phone Number:</label>
+                    <input type="text" id="user-phone" name="user-phone" placeholder="012 345 6789">
+                </div>
+                <div>
+                    <label for="user-email">Email Address:</label>
+                    <input type="email" id="user-email" name="user-email" placeholder="john@email.com">
+                </div>
+                <hr>
+                <div id="quote-button-container">
+                    <button type="button" id="get-quote">Get Quote</button>
+                </div>
+            </section>
+
+            <!-- Cart Card -->
+            <section id="cart-section">
+            <h2>Cart</h2>
+            <div id="cart-list"></div>
+                
+            </section>
+               
+            <!-- Summary Card - only displays when "get Quote button" is clicked -->
+            <section id="summary-section" style="display:none;">
+                <div class="summary">
+                    <h2>Summary of Costs</h2>
+                    <div id="quantity-container">
+                        <label for="quantity">Quantity of Courses:</label>
+                        <span id="quantity">3</span>
+                    </div>
+                    <div id="vat-container">
+                        <label for="vat">VAT (15%):</label>
+                        <span id="vat">R1150</span>
+                    </div>
+                    <div id="total-fee-container">
+                        <label for="total-fee">Total Fee:</label>
+                        <span id="total-fee">R150</span>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Empowering The Nation. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <button class="hamburger" aria-label="Toggle navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="banner" role="banner">
+      <div class="logo">
+        <img src="assets/logo.png" alt="EmpowerNation Logo" class="logo-icon" />
+        Empowering The Nation
+      </div>
+      <nav class="nav-bar" aria-label="Primary">
+        <a href="index.html"><button class="nav-btn">Home</button></a>
+        <a href="courses.html"><button class="nav-btn active">Courses</button></a>
+        <a href="feesCalculation.html"><button class="nav-btn">Calculate Fees</button></a>
+        <a href="contactUs.html"><button class="nav-btn">Contact Us</button></a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <button onclick="window.location.href='index.html'" class="back-btn" aria-label="Back to Home"></button>
+    <div class="wide-panel">
+      <div class="wide-panel-title">Join the cause now!</div>
+      <div class="wide-panel-cta-row">
+        <a href="sixWeeks.html"><button class="cta-btn" aria-label="6 Week Courses">6 Week Courses</button></a>
+        <a href="sixMonth.html"><button class="cta-btn" aria-label="6 Month Courses">6 Month Courses</button></a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Empowering The Nation. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Details</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="individual-courses">
+  <header>
+    <button class="hamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    <div class="banner" role="banner">
+      <div class="logo">
+        <img src="assets/logo.png" alt="EmpowerNation Logo" class="logo-icon" />
+        Empowering The Nation
+      </div>
+      <nav class="nav-bar" aria-label="Primary">
+        <a href="index.html"><button class="nav-btn">Home</button></a>
+        <a href="courses.html"><button class="nav-btn active">Courses</button></a>
+        <a href="feesCalculation.html"><button class="nav-btn">Calculate Fees</button></a>
+        <a href="contactUs.html"><button class="nav-btn">Contact Us</button></a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <button onclick="window.location.href='courses.html'" class="back-btn" aria-label="Back to Courses"></button>
+    <div class="container">
+      <div class="course-panel">
+        <div class="course-title-bar">
+          <h1 id="courseTitle"></h1>
+        </div>
+        <div class="course-body">
+          <div class="course-info-col">
+            <div class="course-info-card" id="courseDetails">
+              <!-- Purpose and content data will be loaded here from dynamic loading -->
+            </div>
+            <div class="course-info-bottom-row">
+              <div class="course-info-small-card" id="courseDuration"></div>
+              <div class="course-info-small-card" id="courseFees"></div>
+            </div>
+          </div>
+          <div class="course-image-col">
+            <div class="course-image-panel">
+              <img id="courseImage" alt="Course Image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Empowering The Nation. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
